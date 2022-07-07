@@ -500,6 +500,7 @@ button{
         margin: 30px auto;
     }
     .button a{
+        font-size: .8rem;
         padding: 8px 10px;
     }
     .flex{
