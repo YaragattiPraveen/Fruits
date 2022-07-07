@@ -499,9 +499,9 @@ button{
         width: 90%;
         margin: 30px auto;
     }
-    /* .button a{
-        padding: 10px 10px;
-    } */
+    .button a{
+        padding: 8px 10px;
+    }
     .flex{
         margin: 30px auto;
     }
