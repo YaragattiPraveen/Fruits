@@ -1,12 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 html {
     scroll-behavior: smooth;
-  }
-header{
+}
+
+header {
     height: 80px;
     width: 100%;
     background-color: #f8f9fa;
@@ -18,59 +20,71 @@ header{
     top: 0;
     left: 0;
 }
-.logo{
+
+.logo {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.logo span{
+
+.logo span {
     font-size: 1.3rem;
     font-weight: bold;
     transition: .7s ease-in-out;
 }
-.logo span:hover{
+
+.logo span:hover {
     color: orangered;
 }
-.logo img{
+
+.logo img {
     width: 50px;
     height: 50px;
 }
-nav ul{
+
+.nav-links{
     display: flex;
     align-items: center;
     justify-content: center;
     list-style: none;
 }
-nav ul li{
+
+nav ul li {
     margin: 0 25px;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     font-size: 1.3rem;
     color: rgb(97, 96, 96);
     transition: .6s ease-in-out;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     color: rgb(252, 61, 61);
 }
-.button a{
+
+.button a {
     padding: 10px 20px;
     background-color: orangered;
     color: white;
     font-size: 1rem;
     transition: .9s ease-in-out;
 }
-nav ul img{
+
+nav ul img {
     height: 25px;
     width: 30px;
     margin: 0 20px;
     cursor: pointer;
 }
-#hero{
+
+#hero {
     width: 100%;
     background-color: rgba(204, 209, 193, 0.432);
 }
-.banner{
+
+.banner {
     width: 90%;
     height: auto;
     display: flex;
@@ -79,75 +93,94 @@ nav ul img{
     align-items: center;
     justify-content: space-between;
 }
-.banner .content{
+
+.banner .content {
     width: 40%;
     display: flex;
     flex-direction: column;
     align-items: initial;
     justify-content: center;
 }
-.banner .banner-img{
+
+.banner .banner-img {
     width: 45%;
 }
-.banner .content h1{
+
+.banner .content h1 {
     font-size: 4rem;
     line-height: 4rem;
     font-weight: 700;
 }
 
-.banner .content p{
+.banner .content p {
     font-size: 1.2rem;
     margin: 20px auto;
     letter-spacing: .1rem;
     line-height: 1.4em;
     text-align: left;
 }
-.banner-img img{
+
+.banner-img img {
     width: 100%;
     border-radius: 30%;
     box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
 
-.orangered,.black{
+.orangered,
+.black {
     margin-right: 2.8rem;
 }
-.flex{
+
+.flex {
     margin: 30px 0;
 }
-.black, .orangered{
+
+.black,
+.orangered {
     text-decoration: none;
     color: #fff;
 }
-.button a:hover{
+
+.button a:hover {
     background-color: rgb(3, 3, 3);
     color: #f8f9fa;
 
 }
-#services{
+
+#services {
     width: 90%;
     margin: 0 auto;
 }
-#services .ser-content{
+
+#services .ser-content {
     padding: 2rem 0;
 }
-#services .ser-content h2{
+
+#services .ser-content h2 {
     font-size: 2.5rem;
 }
-#services .ser-content p{
+
+#services .ser-content p {
     font-size: 1.2rem;
     margin: 15px 0;
 }
-#services .ser-content h2,p{
+
+#services .ser-content h2,
+p {
     text-align: center;
     margin: 10px 0;
 }
-.three-flex{
+
+.three-flex {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 2rem;
 }
-.three-flex .orange,.gauva,.grapes{
+
+.three-flex .orange,
+.gauva,
+.grapes {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -156,36 +189,51 @@ nav ul img{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     transition: .6s ease-in-out;
 }
-.orange:hover,.gauva:hover,.grapes:hover{
+
+.orange:hover,
+.gauva:hover,
+.grapes:hover {
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     /* border-top: 5px solid orangered; */
     background-color: rgba(255, 68, 0, 0.349);
 }
-.three-flex .orange p,.gauva p,.grapes p{
+
+.three-flex .orange p,
+.gauva p,
+.grapes p {
     line-height: 1.8rem;
     font-size: 1.2rem;
     padding: .3rem 2rem;
 }
-.three-flex .orange img,.gauva img,.grapes img{
+
+.three-flex .orange img,
+.gauva img,
+.grapes img {
     width: 100px;
     height: 100px;
     padding: 2rem 1rem 0rem 1rem;
 }
-.three-flex .orange .title,.gauva .title,.grapes .title{
+
+.three-flex .orange .title,
+.gauva .title,
+.grapes .title {
     font-size: 1.8rem;
     color: orangered;
     margin: 25px 0;
 }
-.buttons{
+
+.buttons {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 3.5rem 0;
 }
-.buttons a{
+
+.buttons a {
     text-decoration: none;
 }
-.button-read{
+
+.button-read {
     text-align: center;
     padding: 10px 22px;
     background-color: rgb(0, 0, 0);
@@ -193,122 +241,145 @@ nav ul img{
     font-size: 1.2rem;
     transition: .9s ease-in-out;
 }
-.button-read:hover{
+
+.button-read:hover {
     background-color: orangered;
 }
-.fresh-fruits .ser-content h2{
+
+.fresh-fruits .ser-content h2 {
     text-align: center;
     font-size: 3rem;
     margin: 1.5rem 0;
 }
-.fresh-fruits .ser-content p{
+
+.fresh-fruits .ser-content p {
     font-size: 1.2rem;
     margin-bottom: 2rem;
 }
 
-.fresh-fruits{
+.fresh-fruits {
     width: 100%;
     background-color: rgba(204, 209, 193, 0.432);
     padding: 1.5rem 0;
     height: auto;
 }
-.center{
+
+.center {
     width: 90%;
     margin: 3rem auto;
 }
-.fruit{
+
+.fruit {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 4rem 0;
 }
-.left-content{
+
+.left-content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 60%;
 }
-.left-content h3{
+
+.left-content h3 {
     font-size: 2.3rem;
     font-weight: 200;
     margin-bottom: 1.5rem;
 }
-.right-img{
+
+.right-img {
     width: 30%;
     padding: 50px;
 }
-.fruit .right-img img{
+
+.fruit .right-img img {
     width: 100%;
 }
-.left-content p{
+
+.left-content p {
     text-align: justify;
     font-size: 1.2rem;
     margin-bottom: 3rem;
     line-height: 1.8rem;
 }
-.left-content a{
+
+.left-content a {
     text-decoration: none;
 }
-.left-content .button-read:hover{
+
+.left-content .button-read:hover {
     background-color: #ffffff;
     color: black;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
-.transparent{
+
+.transparent {
     width: 100%;
     height: 500px;
     background-image: url(./images/tasty-image.png);
-    background-position:center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.text-center{
+
+.text-center {
     font-size: 6rem;
     color: #ffffff;
     text-align: center;
 }
-.testimonial .ser-content h2{
+
+.testimonial .ser-content h2 {
     text-align: center;
     font-size: 3rem;
     margin: 1.5rem 0;
 }
-.testimonial .ser-content p{
+
+.testimonial .ser-content p {
     font-size: 1.2rem;
     margin-bottom: 2rem;
 }
-.img-box{
+
+.img-box {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.testimonial .img-box h3{
+
+.testimonial .img-box h3 {
     font-size: 2rem;
     font-weight: 400;
     margin: 1.3rem 0;
 }
-.testimonial .img-box p{
+
+.testimonial .img-box p {
     line-height: 1.7rem;
     font-size: 1.2rem;
 }
-.testimonial .img-box img{
+
+.testimonial .img-box img {
     width: 100%;
 }
-.testmonial-img{
+
+.testmonial-img {
     max-width: 350px;
     margin: 0 auto;
 }
-.contact{
+
+.contact {
     background-image: url(./images/orange-dish.png);
     background-repeat: no-repeat;
     background-size: 215px;
     background-position: right center;
     margin: 5rem 0;
 }
-.contact-form{
+
+.contact-form {
     width: 90%;
     margin: 0 auto;
     display: flex;
@@ -316,11 +387,13 @@ nav ul img{
     justify-content: center;
     flex-direction: column;
 }
-.contact-form h2{
+
+.contact-form h2 {
     font-size: 2rem;
     font-weight: bold;
 }
-.input-row{
+
+.input-row {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -328,10 +401,12 @@ nav ul img{
     width: 100%;
     margin: 1.8rem 0;
 }
-.input-row .row{
+
+.input-row .row {
     margin: 1.5rem 0;
 }
-.input-row .row input{
+
+.input-row .row input {
     outline: none;
     border-bottom: 1px solid rgb(8, 0, 0);
     border-top: 0;
@@ -340,225 +415,340 @@ nav ul img{
     width: 270%;
     background: transparent;
 }
-.input-row .row input:hover{
+
+.input-row .row input:hover {
     border-bottom: 1px solid rgb(85, 79, 79);
 }
-.input-row .row input[type='text'], input[type='email']{
+
+.input-row .row input[type='text'],
+input[type='email'] {
     padding-bottom: 6px;
     font-size: 1rem;
 }
-.contact-form .row{
+
+.contact-form .row {
     margin: 1.8rem 0;
 }
-.contact-form .row a{
+
+.contact-form .row a {
     text-decoration: none;
 }
-.sections{
+
+.sections {
     width: 90%;
     margin: 2rem auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.sections .frui, .serv, .lis, .follow{
+
+.sections .frui,
+.serv,
+.lis,
+.follow {
     margin: 2rem 2rem;
 }
-.sections .frui > p, .serv > p, .lis > p, .follow > p{
+
+.sections .frui>p,
+.serv>p,
+.lis>p,
+.follow>p {
     text-align: left;
 }
-.frui p > a , .serv p > a{
+
+.frui p>a,
+.serv p>a {
     text-decoration: none;
     color: black;
 }
-.sections .frui h4, .serv h4, .lis h4, .follow h4{
+
+.sections .frui h4,
+.serv h4,
+.lis h4,
+.follow h4 {
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 1rem;
 }
-.sections .follow  .thumb{
+
+.sections .follow .thumb {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.sections .follow .thumb img{
+
+.sections .follow .thumb img {
     width: 30px;
     height: 30px;
     margin-right: 2rem;
 }
-.sections .follow .form p{
+
+.sections .follow .form p {
     text-align: left;
     font-size: 1rem;
 }
-.sections .follow .form input{
+
+.sections .follow .form input {
     font-size: 1rem;
     outline: none;
 }
-button{
+
+button {
     margin: .5rem 0 -1rem 0;
     padding: 6px 20px;
     background-color: orangered;
     color: white;
     border: none;
 }
-.foot{
+
+.foot {
     background-color: black;
     width: 100%;
 }
-.foot p{
+
+.foot p {
     font-size: .8rem;
     padding: 20px 0;
     color: rgb(228, 226, 226);
     margin: 0;
 }
 
-@media (max-width: 968px){
-    header{
+.menu-bar {
+    display: none;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer; 
+}
+
+@media (max-width: 968px) {
+    .nav-links {
+        position: absolute;
         flex-direction: column;
-        height: auto;
-        padding: 20px 0;
-        margin:  0 auto;
-    }
-    .banner{
         width: 100%;
-        margin: 100px 0 0 0;
+        height: auto;
+        top: -900px;
+        padding-top: 100px;
+        background-color: rgba(65, 179, 245, 0.856);
+        z-index: -1;
+        transition: all .5s ease;
+        border-radius: 0 0 80px 0;
+    }
+    .mobile-menu{
+       top: 0px;
+    }
+    .menu-bar {
+        display: block;
+    }
+
+    nav ul li {
+        margin: 20px auto;
+    }
+    nav ul li a{
+        color: #fff;
+    }
+
+    .logo {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+
+    header {
+        /* flex-direction: column; */
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .banner {
+        width: 100%;
+        margin: 78px 0 0 0;
         flex-direction: column;
     }
-    
-    .banner .content{
+
+    .banner .content {
         width: 80%;
         margin: 30px auto;
         align-items: center;
     }
-    .banner .content h1{
+
+    .banner .content h1 {
         text-align: center;
     }
-    .banner .content p{
+
+    .banner .content p {
         text-align: center;
     }
-    .banner .banner-img{
+
+    .banner .banner-img {
         width: 65%;
         margin: 30px auto;
     }
-    .orangered,.black{
+
+    .orangered,
+    .black {
         margin: 20px 25px;
     }
-    .flex{
+
+    .flex {
         margin: 30px auto;
     }
-    .three-flex{
+
+    .three-flex {
         width: 90%;
         flex-direction: column;
         margin: 0 auto;
     }
-    .three-flex .orange,.gauva,.grapes{
+
+    .three-flex .orange,
+    .gauva,
+    .grapes {
         margin: 20px 0;
     }
-    .right-img{
+
+    .right-img {
         width: 30%;
         padding: 30px;
     }
-    .input-row .row input{
+
+    .input-row .row input {
         width: 260%;
     }
-    .sections{
+
+    .sections {
         flex-direction: row;
         width: 100%;
         justify-content: center;
     }
 }
 
-@media (max-width: 767px){
-    nav ul{
+@media (max-width: 767px) {
+    nav ul {
         flex-direction: column;
     }
-    nav ul li{
+
+    nav ul li {
         margin: 10px 0;
     }
-    nav ul .button{
+
+    nav ul .button {
         padding: 10px 0;
     }
-    .banner{
+
+    .banner {
         width: 100%;
-        margin: 90px 0 0 0;
+        margin: 0;
         flex-direction: column;
     }
-    .banner .content{
+
+    .banner .content {
         width: 90%;
-        margin: 180px auto 20px auto;
+        margin: 10px auto 20px auto;
     }
-    .banner .content h1{
+
+    .banner .content h1 {
         font-size: 3.5rem;
         text-align: center;
         margin-bottom: 2rem;
     }
-    .banner .content p{
+
+    .banner .content p {
         text-align: center;
         margin-bottom: 2rem;
     }
-    .banner .banner-img{
+
+    .banner .banner-img {
         width: 90%;
         margin: 30px auto;
     }
-    .button a{
+
+    .button a {
         font-size: .8rem;
         padding: 8px 10px;
         margin: 5px;
     }
-    .flex{
+
+    .flex {
         margin: 30px auto;
     }
-    .orangeredred,.black{
+
+    .orangeredred,
+    .black {
         margin: 20px 5px;
     }
-    .three-flex{
+
+    .three-flex {
         flex-direction: column;
     }
-    .three-flex .orange,.gauva,.grapes{
+
+    .three-flex .orange,
+    .gauva,
+    .grapes {
         width: 100%;
         margin: 20px 0;
     }
-    .fruit{
+
+    .fruit {
         flex-direction: column;
     }
-    .left-content{
+
+    .left-content {
         width: 100%;
         align-items: center;
     }
-    .right-img{
+
+    .right-img {
         width: 100%;
     }
-    .left-content p{
+
+    .left-content p {
         text-align: center;
         line-height: 1.8rem;
     }
-    .left-content h3{
+
+    .left-content h3 {
         font-size: 2rem;
         font-weight: 200;
         margin-bottom: 1.5rem;
     }
-    .text-center{
+
+    .text-center {
         font-size: 4rem;
     }
-    .input-row .row input{
+
+    .input-row .row input {
         width: 120%;
     }
-    .sections{
+
+    .sections {
         flex-direction: column;
     }
-    .sections .frui, .serv, .lis, .follow{
+
+    .sections .frui,
+    .serv,
+    .lis,
+    .follow {
         margin: 1rem 4rem;
         text-align: center;
     }
-    .sections .frui > p, .serv > p, .lis > p, .follow > p{
+
+    .sections .frui>p,
+    .serv>p,
+    .lis>p,
+    .follow>p {
         text-align: center;
     }
-    .sections .follow .form p{
+
+    .sections .follow .form p {
         text-align: center;
     }
-    .foot p{
+
+    .foot p {
         margin: 0 3rem;
     }
-    .sections .follow .thumb img{
+
+    .sections .follow .thumb img {
         margin-right: 1.2rem;
     }
 }
